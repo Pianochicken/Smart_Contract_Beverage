@@ -21,9 +21,7 @@ git clone https://github.com/Pianochicken/Smart_Contract_Beverage.git
 <!-- ![2](https://github.com/Pianochicken/Smart_Contract_Beverage/blob/main/images/2.png) -->
 
 
-4. ENVIRONMENT select 'Injected Web3' and Deploy the smart contract.
-
-(Make sure your MetaMask is connected with Rosten Test Network, or you will spend actual ether.)
+4. ENVIRONMENT select 'Injected Web3' and Deploy the smart contract. (Make sure your MetaMask is connected with Rosten Test Network, or you will spend actual ether.)
 
 <img align="center" src="https://github.com/Pianochicken/Smart_Contract_Beverage/blob/main/images/3.png" alt="image 3" width="30%">
 
@@ -43,33 +41,33 @@ After deployment, the contract interact function will display below.
 <!-- ![4](https://github.com/Pianochicken/Smart_Contract_Beverage/blob/main/images/4.png) -->
 
 (contract owner)
-addStore: The contract owner can assign the account address as a store owner. You also need to fund at least 0.05 ethers(50 finneys) and set up the amount of beverages for this new store.
+
+<b>addStore</b>: The contract owner can assign the account address as a store owner. You also need to fund at least 0.05 ethers(50 finneys) and set up the amount of beverages for this new store.
 
 
 (store owner)
-add_inventory: The store owner can add inventory to the store through this function.
+
+<b>add_inventory</b>: The store owner can add inventory to the store through this function.
 withdraw: Withdraw the store's profit to the store owner's account.
 
 
 (customer)
 
-Buy_Drink: The customer need to pay the ethers for their beverage.
+<b>Buy_Drink</b>: The customer need to pay the ethers for their beverage.
 
+<br/>
 
+<b>stores</b>: Check the remaining stock, ether profit of the store.
 
-stores: Check the remaining stock, ether profit of the store.
+<b>buyers</b>: Check the amount of beverage the customers bought.
 
-buyers: Check the amount of beverage the customers bought.
+<b>contract_owner</b>: display the contract owner's address.
 
-contract_owner: display the contract owner's address.
-
-
+<br/>
 
 I've deploy this smart contract on Rosten Test Network.
 
-You can take a look on [Etherscan](https://ropsten.etherscan.io/address/0x5fd9531854e9f5325f79bd8125d9cada86ea757e)
-
-Contract address: 0x5FD9531854e9F5325f79bd8125d9CAda86eA757E
+You can take a look on [Etherscan](https://ropsten.etherscan.io/address/0x5fd9531854e9f5325f79bd8125d9cada86ea757e) with contract address: 0x5FD9531854e9F5325f79bd8125d9CAda86eA757E
 
 <img align="center" src="https://github.com/Pianochicken/Smart_Contract_Beverage/blob/main/images/5.png" alt="image 5" width="100%">
 
