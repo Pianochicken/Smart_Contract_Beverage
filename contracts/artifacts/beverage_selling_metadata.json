@@ -1,0 +1,224 @@
+{
+	"compiler": {
+		"version": "0.8.5+commit.a4f2e591"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "store_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "coffee_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "latte_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bubble_tea_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Buy_Drink",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "store",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "coffee_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "latte_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bubble_tea_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addStore",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "coffee_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "latte_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bubble_tea_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "add_inventory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "buyers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "coffee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "latte",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bubble_tea",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contract_owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "stores",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "eth_balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "coffee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "latte",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bubble_tea",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "exist",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "finney_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/20210620_beverage_selling.sol": "beverage_selling"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/20210620_beverage_selling.sol": {
+			"keccak256": "0x7716690073662a89170524d137f0b4fed133d1e22d84080f03dcc522d2be7cc1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://70a9ae240ad6614507509d5e8d1e91d05a62de5508e4aac4c6eddaee840bb073",
+				"dweb:/ipfs/QmWVMPXNQorms2txkxhkY5Vy1sBMn5ov39KhahNoo99BHb"
+			]
+		}
+	},
+	"version": 1
+}
