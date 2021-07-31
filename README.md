@@ -71,7 +71,7 @@ stores: Check the remaining stock, ether profit of the store.
 
 buyers: Check the amount of beverage the customers bought.
 
-contract_owner: display the contract owner's address.
+contract_owner: Display the contract owner's address.
 
 <br/>
 
