@@ -8,7 +8,7 @@
 ```
 git clone https://github.com/Pianochicken/Smart_Contract_Beverage.git
 ```
-2. Go to [Remix](http://remix.ethereum.org/) upload the .sol file to default contracts directory.
+2. Go to [Remix](http://remix.ethereum.org/) and upload the .sol file to default contracts directory.
 
 <img align="center" src="https://github.com/Pianochicken/Smart_Contract_Beverage/blob/main/images/1.png" alt="image 1" width="100%">
 
