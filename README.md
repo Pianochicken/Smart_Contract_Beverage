@@ -79,5 +79,4 @@ I've already deployed this smart contract on Rosten Test Network. You can load c
 
 Take a look on [Etherscan](https://ropsten.etherscan.io/address/0x5fd9531854e9f5325f79bd8125d9cada86ea757e) with contract address: 0x5FD9531854e9F5325f79bd8125d9CAda86eA757E
 
-
 <img align="center" src="https://github.com/Pianochicken/Smart_Contract_Beverage/blob/main/images/6.png" alt="image 6" width="100%">
