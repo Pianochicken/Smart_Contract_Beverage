@@ -1,6 +1,6 @@
 ## Smart Contract Beverage
 
-　　This is a simple smart contract to present the process of selling beverage. As a contract owner, you can assign an account as a new store owner and set the amount of beverages(In this case, Coffee, Latte and Bubble tea). As a store owner, you can supplement the beverages and withdraw the profit. As a buyer, you can pay the Ether for these beverages. In this example, we will display how to deploy and interact with the smart contract on Rosten Test Network by Online IDE [Remix](http://remix.ethereum.org/) and Blockchain Wallet [MetaMask](https://metamask.io/).
+　　This is a simple smart contract to present the process of opening new store, assign store owner, selling beverage and withdraw the profit. As a contract owner, you can assign an account as a new store owner and set the amount of beverages(In this case, Coffee, Latte and Bubble tea). As a store owner, you can supplement the beverages and withdraw the profit. As a buyer, you can pay the Ether for these beverages. In this example, we will display how to deploy and interact with the smart contract on Rosten Test Network by Online IDE [Remix](http://remix.ethereum.org/) and Blockchain Wallet [MetaMask](https://metamask.io/).
 
 ### Follow Steps
 
