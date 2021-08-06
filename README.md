@@ -56,6 +56,7 @@ addStore: The contract owner can assign the account address as a store owner. Yo
 <b>[As a store owner]</b>
 
 add_inventory: The store owner can add inventory to the store through this function.
+
 withdraw: Withdraw the store's profit to the store owner's account.
 
 
